@@ -1,0 +1,33 @@
+{
+    "linear_regression": {
+        "model": "Linear Regression",
+        "metrics": {
+            "mean_absolute_error": 0.45,
+            "mean_squared_error": 0.30,
+            "root_mean_squared_error": 0.55,
+            "r_squared": 0.85
+        },
+        "hyperparameters": {
+            "fit_intercept": true,
+            "normalize": false
+        }
+    },
+    "logistic_regression": {
+        "model": "Logistic Regression",
+        "metrics": {
+            "accuracy": 0.78,
+            "precision": 0.75,
+            "recall": 0.80,
+            "f1_score": 0.77
+        },
+        "hyperparameters": {
+            "C": 1.0,
+            "solver": "lbfgs",
+            "max_iter": 100
+        }
+    },
+    "best_model": {
+        "model": "Linear Regression",
+        "reason": "Higher R-squared value and lower error metrics indicate better performance for yield prediction."
+    }
+}
